@@ -1,0 +1,5 @@
+#!/bin/sh
+cd
+wget http://teletek.st
+cat ~/Documents/index.html | grep 'a href' | sed 's/<[^>]*>//g' | rev | cut -c5- | rev | grep -Ev "Binary"
+rm index.html

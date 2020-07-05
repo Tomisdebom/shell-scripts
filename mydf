@@ -1,0 +1,3 @@
+#!/bin/sh
+
+PROMPT_COMMAND="echo -n [$(df -H | grep  'sda1' | awk '{ print $4 }')]" 
