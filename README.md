@@ -1,8 +1,3 @@
-# README file Robotics Practicals ##
-####################################
-# GROUP 61#
-####################################
-
 1.	MYCP
 We use the cat command to copy a file (in the current directory) to an output file
 (in a desired directory). However a "/" is needed
@@ -30,6 +25,3 @@ using the rev command. We now cut off the last 5 characters and reverse again. T
 filtering is finalized by using grep -Ev to filter out the last line of the document. 
 After this all, we remove the current index.html file from the root directory, so that 
 a new, updated, version will be ensured when running the command again.
-
-# Binnert Prins		4382528
-# Tom Kerssemaks	4345487
